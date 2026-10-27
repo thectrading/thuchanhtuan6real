@@ -1,0 +1,233 @@
+{
+  "method": "Read-only ROS audit; no fake inputs, no camera frames saved",
+  "labels": {
+    "No fresh result => No_Hand": 5,
+    "No_Hand => No_Hand": 15,
+    "Open_Palm => Open_Palm": 11,
+    "None => Open_Palm": 13,
+    "None => Hand_Present": 9,
+    "None => Wave": 7,
+    "Open_Palm => Wave": 1,
+    "None => Pointing_Up": 1,
+    "Pointing_Up => Pointing_Up": 20,
+    "Pointing_Up => Victory": 5,
+    "None => Victory": 28,
+    "None => Thumb_Up": 7,
+    "Thumb_Up => Thumb_Up": 68,
+    "None => Closed_Fist": 1
+  },
+  "states": [
+    {
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Choose a gesture, then confirm with Thumb_Up",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": false,
+      "signal_age": 999.0
+    },
+    {
+      "mode": "SELECTED",
+      "selected": "greet",
+      "reason": "Selected greet; show Thumb_Up to start",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.033157900000105656
+    },
+    {
+      "mode": "STOPPED",
+      "selected": "greet",
+      "reason": "Open_Palm: stopped; select and confirm again",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.03487893800001984
+    },
+    {
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Closed_Fist: canceled and cleared selection",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.032911988000023484
+    },
+    {
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 1,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "forward",
+      "ready": true,
+      "signal_age": 0.031459785000151896
+    },
+    {
+      "mode": "SELECTED",
+      "selected": "circle",
+      "reason": "Selected circle; show Thumb_Up to start",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.029290786000046865
+    },
+    {
+      "mode": "RUNNING",
+      "selected": "circle",
+      "reason": "Confirmed: executing circle",
+      "segment": 0,
+      "segments_total": 1,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.029130835999922056
+    },
+    {
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 1,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "forward",
+      "ready": true,
+      "signal_age": 0.028860492999911003
+    },
+    {
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle",
+      "segment": 0,
+      "segments_total": 8,
+      "shuttle_cycle": 1,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "forward",
+      "ready": true,
+      "signal_age": 0.02792927299992698
+    },
+    {
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 1",
+      "segment": 1,
+      "segments_total": 8,
+      "shuttle_cycle": 1,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "return",
+      "ready": true,
+      "signal_age": 0.02653714600000967
+    },
+    {
+      "mode": "SELECTED",
+      "selected": "circle",
+      "reason": "Selected circle; show Thumb_Up to start",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.026283925999905478
+    },
+    {
+      "mode": "RUNNING",
+      "selected": "circle",
+      "reason": "Confirmed: executing circle",
+      "segment": 0,
+      "segments_total": 1,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.02359545500007698
+    },
+    {
+      "mode": "STOPPED",
+      "selected": "circle",
+      "reason": "Open_Palm: stopped; select and confirm again",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.02360313799999858
+    },
+    {
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Closed_Fist: canceled and cleared selection",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.018867093999915596
+    }
+  ],
+  "odom": {
+    "x": 1.8727740805708881,
+    "y": 0.852786066780904,
+    "yaw": 1.766453034408009,
+    "linear": 7.555298835519663e-16,
+    "angular": -1.3933481303446766e-15
+  },
+  "scan_min_m": 2.1322383880615234,
+  "last_state": {
+    "mode": "IDLE",
+    "selected": null,
+    "reason": "Closed_Fist: canceled and cleared selection",
+    "segment": 0,
+    "segments_total": 0,
+    "shuttle_cycle": 0,
+    "shuttle_cycles_completed": 0,
+    "shuttle_phase": "",
+    "ready": true,
+    "signal_age": 0.022462193999899682
+  },
+  "last_debug": {
+    "gesture": "Open_Palm",
+    "raw_label": "None",
+    "confidence": 0.7615064978599548,
+    "fresh": true,
+    "frame_age_s": 0.07065305900005114,
+    "capture_to_result_ms": 57.41938100004518,
+    "hand_count": 1,
+    "pose_source": "AI_landmarks_joint_rules",
+    "pose_label": "Open_Palm",
+    "finger_states": [
+      "extended",
+      "extended",
+      "extended",
+      "extended"
+    ],
+    "source": "live webcam / MediaPipe AI categories + AI landmark joint rules; Wave is temporal motion"
+  },
+  "real_time_factor": 0.4135617952442613,
+  "gesture_publishers": [
+    "gesture_recognition_node"
+  ],
+  "mean_frame_age_s": 0.10734359202150558,
+  "mean_capture_to_result_ms": 77.32374579033056
+}

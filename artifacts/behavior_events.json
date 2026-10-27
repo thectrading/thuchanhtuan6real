@@ -1,0 +1,569 @@
+{
+  "method": "robot_behavior_node: real subscribed inputs",
+  "events": [
+    {
+      "wall_monotonic": 795.732858559,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start",
+      "segment": 0,
+      "pose": [
+        -3.885960342398906e-12,
+        -5.974597676345251e-24,
+        2.8712524761990433e-12
+      ]
+    },
+    {
+      "wall_monotonic": 797.236900154,
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Closed_Fist: canceled and cleared selection",
+      "segment": 0,
+      "pose": [
+        -3.8859980489685485e-12,
+        -5.9747059415057684e-24,
+        2.8712565932339547e-12
+      ]
+    },
+    {
+      "wall_monotonic": 797.697544919,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start",
+      "segment": 0,
+      "pose": [
+        -3.886009420289101e-12,
+        -5.974738591491253e-24,
+        2.871257698349594e-12
+      ]
+    },
+    {
+      "wall_monotonic": 799.686645648,
+      "mode": "FAULT",
+      "selected": null,
+      "reason": "Control signal lost before confirmation",
+      "segment": 0,
+      "pose": [
+        -3.88605910618773e-12,
+        -5.974881252646265e-24,
+        2.8712631760182256e-12
+      ]
+    },
+    {
+      "wall_monotonic": 800.258344423,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start",
+      "segment": 0,
+      "pose": [
+        -3.886072607398292e-12,
+        -5.974920018184893e-24,
+        2.8712646324712264e-12
+      ]
+    },
+    {
+      "wall_monotonic": 800.701246637,
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Closed_Fist: canceled and cleared selection",
+      "segment": 0,
+      "pose": [
+        -3.886083988765493e-12,
+        -5.97495269710929e-24,
+        2.8712658749278283e-12
+      ]
+    },
+    {
+      "wall_monotonic": 801.180571956,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start",
+      "segment": 0,
+      "pose": [
+        -3.8860896774025544e-12,
+        -5.974969030700257e-24,
+        2.871266430679633e-12
+      ]
+    },
+    {
+      "wall_monotonic": 801.677771603,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle",
+      "segment": 0,
+      "pose": [
+        -3.886098284405684e-12,
+        -5.974993743703971e-24,
+        2.871267449557933e-12
+      ]
+    },
+    {
+      "wall_monotonic": 802.684265413,
+      "mode": "STOPPED",
+      "selected": "shuttle",
+      "reason": "Changed behavior: stop and require a fresh confirmation",
+      "segment": 0,
+      "pose": [
+        0.05598359997813643,
+        -6.193945202284719e-13,
+        -1.6745635647007745e-11
+      ]
+    },
+    {
+      "wall_monotonic": 802.684265413,
+      "mode": "SELECTED",
+      "selected": "circle",
+      "reason": "Selected circle; show Thumb_Up to start",
+      "segment": 0,
+      "pose": [
+        0.05598359997813643,
+        -6.193945202284719e-13,
+        -1.6745635647007745e-11
+      ]
+    },
+    {
+      "wall_monotonic": 803.187185843,
+      "mode": "RUNNING",
+      "selected": "circle",
+      "reason": "Confirmed: executing circle",
+      "segment": 0,
+      "pose": [
+        0.09438179998428345,
+        -1.4640792851602174e-12,
+        -2.949083515413764e-11
+      ]
+    },
+    {
+      "wall_monotonic": 803.685952856,
+      "mode": "STOPPED",
+      "selected": "circle",
+      "reason": "Changed behavior: stop and require a fresh confirmation",
+      "segment": 0,
+      "pose": [
+        0.1278419742311847,
+        0.0007423623698907524,
+        0.04786012490602907
+      ]
+    },
+    {
+      "wall_monotonic": 803.685952856,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start",
+      "segment": 0,
+      "pose": [
+        0.1278419742311847,
+        0.0007423623698907524,
+        0.04786012490602907
+      ]
+    },
+    {
+      "wall_monotonic": 804.191118927,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle",
+      "segment": 0,
+      "pose": [
+        0.16896604461695264,
+        0.0034008762052663314,
+        0.06863999989061637
+      ]
+    },
+    {
+      "wall_monotonic": 804.366028384,
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Closed_Fist: canceled and cleared selection",
+      "segment": 0,
+      "pose": [
+        0.17319027392312092,
+        0.0036912835275094867,
+        0.06863999988729132
+      ]
+    },
+    {
+      "wall_monotonic": 805.101793529,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start",
+      "segment": 0,
+      "pose": [
+        0.18443323650757373,
+        0.00446421473491204,
+        0.06863999987580165
+      ]
+    },
+    {
+      "wall_monotonic": 805.5918746,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle",
+      "segment": 0,
+      "pose": [
+        0.18443323650757373,
+        0.00446421473491204,
+        0.06863999987580165
+      ]
+    },
+    {
+      "wall_monotonic": 811.239602132,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 1",
+      "segment": 1,
+      "pose": [
+        0.6684023550800993,
+        0.03773612435390467,
+        0.06863999983781173
+      ]
+    },
+    {
+      "wall_monotonic": 816.791334823,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 2",
+      "segment": 2,
+      "pose": [
+        0.19886891397821455,
+        0.005456638685420358,
+        0.06863999991265375
+      ]
+    },
+    {
+      "wall_monotonic": 821.642716957,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 3",
+      "segment": 3,
+      "pose": [
+        0.6691489420995274,
+        0.03778745069970286,
+        0.06863999983870472
+      ]
+    },
+    {
+      "wall_monotonic": 827.494590393,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 4",
+      "segment": 4,
+      "pose": [
+        0.19843791193459692,
+        0.005427008136545228,
+        0.06863999991271963
+      ]
+    },
+    {
+      "wall_monotonic": 832.846270315,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 5",
+      "segment": 5,
+      "pose": [
+        0.6696191042811717,
+        0.03781977339025025,
+        0.06863999983865257
+      ]
+    },
+    {
+      "wall_monotonic": 838.097327902,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 6",
+      "segment": 6,
+      "pose": [
+        0.19897233296392067,
+        0.005463748494500483,
+        0.06863999991266367
+      ]
+    },
+    {
+      "wall_monotonic": 844.899148424,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 7",
+      "segment": 7,
+      "pose": [
+        0.6689794228426885,
+        0.037775796550135125,
+        0.06863999983870282
+      ]
+    },
+    {
+      "wall_monotonic": 850.650819706,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 8",
+      "segment": 8,
+      "pose": [
+        0.19931424588514468,
+        0.005487254304726814,
+        0.0686399999126291
+      ]
+    },
+    {
+      "wall_monotonic": 850.900787992,
+      "mode": "COMPLETED",
+      "selected": "shuttle",
+      "reason": "Completed; choose a gesture again for another run",
+      "segment": 8,
+      "pose": [
+        0.1956395725066965,
+        0.005234627854080602,
+        0.0686399999169242
+      ]
+    },
+    {
+      "wall_monotonic": 852.111241264,
+      "mode": "SELECTED",
+      "selected": "circle",
+      "reason": "Selected circle; show Thumb_Up to start",
+      "segment": 0,
+      "pose": [
+        0.1956395725066965,
+        0.005234627854080602,
+        0.06863999991692418
+      ]
+    },
+    {
+      "wall_monotonic": 852.643147799,
+      "mode": "RUNNING",
+      "selected": "circle",
+      "reason": "Confirmed: executing circle",
+      "segment": 0,
+      "pose": [
+        0.1956395725066965,
+        0.005234627854080602,
+        0.06863999991692418
+      ]
+    },
+    {
+      "wall_monotonic": 909.86448284,
+      "mode": "RUNNING",
+      "selected": "circle",
+      "reason": "Finished motion segment 1",
+      "segment": 1,
+      "pose": [
+        0.13099878244547986,
+        0.0004832364724282024,
+        6.307303298983366
+      ]
+    },
+    {
+      "wall_monotonic": 910.064954353,
+      "mode": "COMPLETED",
+      "selected": "circle",
+      "reason": "Completed; choose a gesture again for another run",
+      "segment": 1,
+      "pose": [
+        0.13223147897272905,
+        0.0005137757156908199,
+        6.308200746108873
+      ]
+    },
+    {
+      "wall_monotonic": 911.364045514,
+      "mode": "SELECTED",
+      "selected": "greet",
+      "reason": "Selected greet; show Thumb_Up to start",
+      "segment": 0,
+      "pose": [
+        0.13223147897272905,
+        0.0005137757156908199,
+        6.308200746108873
+      ]
+    },
+    {
+      "wall_monotonic": 911.855808386,
+      "mode": "RUNNING",
+      "selected": "greet",
+      "reason": "Confirmed: executing greet",
+      "segment": 0,
+      "pose": [
+        0.13223147897272905,
+        0.0005137757156908199,
+        6.308200746108873
+      ]
+    },
+    {
+      "wall_monotonic": 914.616130605,
+      "mode": "RUNNING",
+      "selected": "greet",
+      "reason": "Finished motion segment 1",
+      "segment": 1,
+      "pose": [
+        0.13223147897394977,
+        0.0005137757177829716,
+        7.058964818580457
+      ]
+    },
+    {
+      "wall_monotonic": 920.167417588,
+      "mode": "RUNNING",
+      "selected": "greet",
+      "reason": "Finished motion segment 2",
+      "segment": 2,
+      "pose": [
+        0.13223147897532353,
+        0.0005137757177497707,
+        5.527860523945612
+      ]
+    },
+    {
+      "wall_monotonic": 924.567628332,
+      "mode": "RUNNING",
+      "selected": "greet",
+      "reason": "Finished motion segment 3",
+      "segment": 3,
+      "pose": [
+        0.13223147897395263,
+        0.0005137757173798139,
+        6.27449835922238
+      ]
+    },
+    {
+      "wall_monotonic": 924.767792044,
+      "mode": "COMPLETED",
+      "selected": "greet",
+      "reason": "Completed; choose a gesture again for another run",
+      "segment": 3,
+      "pose": [
+        0.13223147897379986,
+        0.0005137757173808755,
+        6.2772595934039845
+      ]
+    },
+    {
+      "wall_monotonic": 926.103916259,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start",
+      "segment": 0,
+      "pose": [
+        0.13223147897379986,
+        0.0005137757173808755,
+        6.2772595934039845
+      ]
+    },
+    {
+      "wall_monotonic": 926.606486805,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle",
+      "segment": 0,
+      "pose": [
+        0.13223147897379986,
+        0.0005137757173808755,
+        6.2772595934039845
+      ]
+    },
+    {
+      "wall_monotonic": 927.098930229,
+      "mode": "STOPPED",
+      "selected": "shuttle",
+      "reason": "Open_Palm: stopped; select and confirm again",
+      "segment": 0,
+      "pose": [
+        0.1565553518986491,
+        0.00036963772156207487,
+        6.277259593412443
+      ]
+    },
+    {
+      "wall_monotonic": 927.635780943,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start",
+      "segment": 0,
+      "pose": [
+        0.18938407552330658,
+        0.00017510182514963337,
+        6.277259593423258
+      ]
+    },
+    {
+      "wall_monotonic": 928.119020477,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle",
+      "segment": 0,
+      "pose": [
+        0.18938407552330658,
+        0.00017510182514963337,
+        6.277259593423258
+      ]
+    },
+    {
+      "wall_monotonic": 928.611618952,
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Closed_Fist: canceled and cleared selection",
+      "segment": 0,
+      "pose": [
+        0.2143397373554792,
+        2.7219985766703774e-05,
+        6.277259593431817
+      ]
+    },
+    {
+      "wall_monotonic": 929.14161029,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start",
+      "segment": 0,
+      "pose": [
+        0.23778072579821777,
+        -0.00011168622751710883,
+        6.277259593436913
+      ]
+    },
+    {
+      "wall_monotonic": 929.644256565,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle",
+      "segment": 0,
+      "pose": [
+        0.24653667207282293,
+        -0.00016357206597941113,
+        6.2772595934424995
+      ]
+    },
+    {
+      "wall_monotonic": 930.76897905,
+      "mode": "FAULT",
+      "selected": null,
+      "reason": "Control signal lost; select again",
+      "segment": 0,
+      "pose": [
+        0.31343909742773335,
+        -0.0005600213266838439,
+        6.277259593454881
+      ]
+    },
+    {
+      "wall_monotonic": 931.070134755,
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Closed_Fist: canceled and cleared selection",
+      "segment": 0,
+      "pose": [
+        0.34229679076733666,
+        -0.0007310257576823005,
+        6.277259593458834
+      ]
+    }
+  ],
+  "state": {
+    "mode": "IDLE",
+    "selected": null,
+    "reason": "Closed_Fist: canceled and cleared selection",
+    "segment": 0,
+    "segments_total": 0,
+    "shuttle_cycle": 0,
+    "shuttle_cycles_completed": 0,
+    "shuttle_phase": "",
+    "ready": true,
+    "signal_age": 0.05169855099995857
+  }
+}

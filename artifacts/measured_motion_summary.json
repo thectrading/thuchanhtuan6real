@@ -1,0 +1,29 @@
+{
+  "method": "Derived from recorded actual behavior_node odometry events, automated String-input run",
+  "measurements": [
+    {
+      "behavior": "shuttle",
+      "complete_cycles": 4,
+      "return_errors_m": [
+        0.014469750838694813,
+        0.014037731474511669,
+        0.014573413927543435,
+        0.014916133884380406
+      ],
+      "forward_endpoint_distances_m": [
+        0.48511145904994013,
+        0.4858598082808153,
+        0.48633108021226545,
+        0.48568988889510156
+      ]
+    },
+    {
+      "behavior": "greet",
+      "heading_at_phase_end_degrees": [
+        43.01561276267566,
+        -44.710201314255876,
+        -1.9310045281130723
+      ]
+    }
+  ]
+}

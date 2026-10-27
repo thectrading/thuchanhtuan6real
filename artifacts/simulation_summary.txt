@@ -1,0 +1,9 @@
+AUTOMATED ROS/Gazebo test, not a webcam gesture demonstration.
+selection_handover_and_rearm PASSED
+switch_requires_fresh_confirmation PASSED
+shuttle_4_cycles PASSED {'test': 'shuttle_4_cycles', 'passed': True, 'elapsed_wall_s': 47.024, 'start_pose': (0.1844203668842361, 0.004463329974029007, 0.06863999987622607), 'end_pose': (0.1956395725066965, 0.005234627854080602, 0.06863999991692418), 'end_displacement_m': 0.01124568696073384, 'yaw_change_rad': 4.112253593202553e-11, 'motion_segments_completed': 8}
+one_circle PASSED {'test': 'one_circle', 'passed': True, 'elapsed_wall_s': 59.225, 'start_pose': (0.1956395725066965, 0.005234627854080602, 0.06863999991692418), 'end_pose': (0.13223147897272905, 0.0005137757156908199, 0.02501543892928624), 'end_displacement_m': 0.0635835888459035, 'yaw_change_rad': 6.239560746191949, 'motion_segments_completed': 1}
+greeting PASSED {'test': 'greeting', 'passed': True, 'elapsed_wall_s': 14.759, 'start_pose': (0.13223147897272905, 0.0005137757156908199, 0.02501543892928624), 'end_pose': (0.13223147897379986, 0.0005137757173808755, -0.0059257137756019386), 'end_displacement_m': 2.000730369392401e-12, 'yaw_change_rad': -0.030941152704888064, 'motion_segments_completed': 3}
+palm_stop PASSED
+fist_cancel PASSED
+ALL AUTOMATED SIMULATION CHECKS PASSED

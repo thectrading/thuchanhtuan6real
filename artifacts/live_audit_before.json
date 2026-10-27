@@ -1,0 +1,54 @@
+{
+  "method": "Read-only live audit before fixes",
+  "labels": {
+    "Thumb_Up => Thumb_Up": 11,
+    "STALE CAMERA / INFERENCE - robot must stop => No_Hand": 1,
+    "No_Hand => No_Hand": 37,
+    "None => Hand_Present": 4
+  },
+  "states": [
+    {
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle",
+      "segment": 0,
+      "segments_total": 8,
+      "ready": true,
+      "signal_age": 0.025936113000170735
+    },
+    {
+      "mode": "FAULT",
+      "selected": null,
+      "reason": "Control signal lost; select again",
+      "segment": 0,
+      "segments_total": 0,
+      "ready": true,
+      "signal_age": 0.6753577429999496
+    }
+  ],
+  "last_state": {
+    "mode": "FAULT",
+    "selected": null,
+    "reason": "Control signal lost; select again",
+    "segment": 0,
+    "segments_total": 0,
+    "ready": true,
+    "signal_age": 4.326526045999344
+  },
+  "last_debug": {
+    "gesture": "No_Hand",
+    "raw_label": "No_Hand",
+    "confidence": 0.0,
+    "fresh": false,
+    "source": "live webcam / MediaPipe Tasks; Wave is temporal wrist motion"
+  },
+  "scan_min": 1.8354791402816772,
+  "odom": {
+    "x": 2.0985923140228766,
+    "y": 0.48133273498716006,
+    "yaw": 0.5615999992705693,
+    "linear": 1.9075181919997515e-16,
+    "angular": 3.1446137139454696e-16
+  },
+  "real_time_factor": 0.24305581442595905
+}

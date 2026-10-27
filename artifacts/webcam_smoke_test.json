@@ -1,0 +1,23 @@
+{
+  "method": "Real V4L2 webcam capture and MediaPipe Tasks inference; no robot commands",
+  "passed": true,
+  "frame_shape": [
+    480,
+    640,
+    3
+  ],
+  "hands_in_frame": 1,
+  "categories": [
+    [
+      {
+        "name": "None",
+        "score": 0.5168182253837585
+      }
+    ]
+  ],
+  "inference_wall_ms": 95.5,
+  "mediapipe_version": "0.10.21",
+  "opencv_version": "4.11.0",
+  "model_sha256": "97952348cf6a6a4915c2ea1496b4b37ebabc50cbbf80571435643c455f2b0482",
+  "limitation": "Smoke test only; does not prove all six human gestures or a complete video demo. No camera frame is saved."
+}

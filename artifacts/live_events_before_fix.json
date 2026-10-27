@@ -1,0 +1,296 @@
+{
+  "method": "robot_behavior_node: real subscribed inputs",
+  "events": [
+    {
+      "wall_monotonic": 4095.841564771,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4097.015801517,
+      "mode": "FAULT",
+      "selected": null,
+      "reason": "Control signal lost before confirmation"
+    },
+    {
+      "wall_monotonic": 4103.29079387,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4106.715962262,
+      "mode": "FAULT",
+      "selected": null,
+      "reason": "Control signal lost before confirmation"
+    },
+    {
+      "wall_monotonic": 4118.291564379,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4123.040922698,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle"
+    },
+    {
+      "wall_monotonic": 4129.215808073,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 1"
+    },
+    {
+      "wall_monotonic": 4132.715726131,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 2"
+    },
+    {
+      "wall_monotonic": 4138.716594813,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 3"
+    },
+    {
+      "wall_monotonic": 4141.966219263,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 4"
+    },
+    {
+      "wall_monotonic": 4147.866276884,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 5"
+    },
+    {
+      "wall_monotonic": 4150.516280756,
+      "mode": "FAULT",
+      "selected": null,
+      "reason": "Control signal lost; select again"
+    },
+    {
+      "wall_monotonic": 4173.74028883,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4179.840521178,
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Closed_Fist: canceled and cleared selection"
+    },
+    {
+      "wall_monotonic": 4181.697334665,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4186.792046881,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4189.839938205,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4190.765966218,
+      "mode": "FAULT",
+      "selected": null,
+      "reason": "Control signal lost before confirmation"
+    },
+    {
+      "wall_monotonic": 4201.042650366,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4210.1921432,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle"
+    },
+    {
+      "wall_monotonic": 4215.317370101,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 1"
+    },
+    {
+      "wall_monotonic": 4218.366271427,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 2"
+    },
+    {
+      "wall_monotonic": 4218.890768936,
+      "mode": "STOPPED",
+      "selected": "shuttle",
+      "reason": "Open_Palm: stopped; select and confirm again"
+    },
+    {
+      "wall_monotonic": 4265.192488573,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4274.666948414,
+      "mode": "FAULT",
+      "selected": null,
+      "reason": "Control signal lost before confirmation"
+    },
+    {
+      "wall_monotonic": 4354.444045729,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4357.2419749,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle"
+    },
+    {
+      "wall_monotonic": 4360.71765108,
+      "mode": "FAULT",
+      "selected": null,
+      "reason": "Control signal lost; select again"
+    },
+    {
+      "wall_monotonic": 4407.54001968,
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Closed_Fist: canceled and cleared selection"
+    },
+    {
+      "wall_monotonic": 4414.291641623,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4418.018655924,
+      "mode": "FAULT",
+      "selected": null,
+      "reason": "Control signal lost before confirmation"
+    },
+    {
+      "wall_monotonic": 4428.240360243,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4433.040614017,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4435.541128244,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle"
+    },
+    {
+      "wall_monotonic": 4441.717942203,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 1"
+    },
+    {
+      "wall_monotonic": 4443.867256868,
+      "mode": "FAULT",
+      "selected": null,
+      "reason": "Control signal lost; select again"
+    },
+    {
+      "wall_monotonic": 4446.839915204,
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start"
+    },
+    {
+      "wall_monotonic": 4453.09283404,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle"
+    },
+    {
+      "wall_monotonic": 4459.617100082,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 1"
+    },
+    {
+      "wall_monotonic": 4463.26786264,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 2"
+    },
+    {
+      "wall_monotonic": 4469.616042671,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 3"
+    },
+    {
+      "wall_monotonic": 4473.415150675,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 4"
+    },
+    {
+      "wall_monotonic": 4479.915374502,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 5"
+    },
+    {
+      "wall_monotonic": 4484.114064917,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 6"
+    },
+    {
+      "wall_monotonic": 4493.81485656,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 7"
+    },
+    {
+      "wall_monotonic": 4499.765396092,
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 8"
+    },
+    {
+      "wall_monotonic": 4500.01292029,
+      "mode": "COMPLETED",
+      "selected": "shuttle",
+      "reason": "Completed; choose a gesture again for another run"
+    }
+  ],
+  "state": {
+    "mode": "COMPLETED",
+    "selected": "shuttle",
+    "reason": "Completed; choose a gesture again for another run",
+    "segment": 8,
+    "segments_total": 0,
+    "ready": true,
+    "signal_age": 0.0178474960002859
+  }
+}

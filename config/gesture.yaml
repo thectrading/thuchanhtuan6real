@@ -1,0 +1,29 @@
+gesture_recognition_node:
+  ros__parameters:
+    camera_index: 0
+    width: 640
+    height: 480
+    confidence: 0.65
+    stop_confidence: 0.50
+    freshness_timeout: 0.30
+    show_window: true
+    window_x: 868
+    window_y: 81
+robot_behavior_node:
+  ros__parameters:
+    stable_seconds: 0.30
+    stable_samples: 3
+    signal_timeout: 0.65
+    selection_signal_timeout: 1.8
+    cancel_selection_seconds: 0.25
+    sensor_timeout: 0.8
+    selection_timeout: 12.0
+    behavior_timeout: 180.0
+    progress_timeout: 12.0
+    linear_speed: 0.28
+    angular_speed: 1.0
+    shuttle_distance: 0.50
+    circle_radius: 0.75
+    circle_speed: 0.26
+    obstacle_distance: 0.42
+    rotation_clearance: 0.26

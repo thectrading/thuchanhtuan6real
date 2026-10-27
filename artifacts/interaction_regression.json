@@ -1,0 +1,49 @@
+{
+  "method": "AUTOMATED /detected_gesture String inputs; not live webcam",
+  "all_passed": true,
+  "tests": [
+    {
+      "test": "selection_handover_and_rearm",
+      "passed": true
+    },
+    {
+      "test": "switch_requires_fresh_confirmation",
+      "passed": true
+    },
+    {
+      "test": "palm_stop",
+      "passed": true
+    },
+    {
+      "test": "fist_cancel",
+      "passed": true
+    },
+    {
+      "test": "signal_loss",
+      "passed": true
+    }
+  ],
+  "hazard_types": [],
+  "last_state": {
+    "mode": "IDLE",
+    "selected": null,
+    "reason": "Closed_Fist: canceled and cleared selection",
+    "segment": 0,
+    "segments_total": 0,
+    "shuttle_cycle": 0,
+    "shuttle_cycles_completed": 0,
+    "shuttle_phase": "",
+    "ready": true,
+    "signal_age": 0.03788508800005275
+  },
+  "active_controller_parameters": {
+    "linear_speed": 0.28,
+    "angular_speed": 1.0,
+    "circle_speed": 0.26,
+    "shuttle_distance": 0.5,
+    "circle_radius": 0.75,
+    "signal_timeout": 0.65,
+    "selection_signal_timeout": 1.8
+  },
+  "scope": "interaction checks extracted from same full simulation_test.json run"
+}

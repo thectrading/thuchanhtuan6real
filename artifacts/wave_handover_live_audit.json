@@ -1,0 +1,156 @@
+{
+  "method": "Read-only ROS audit; no fake inputs, no camera frames saved",
+  "labels": {
+    "No fresh result => No_Hand": 5,
+    "No_Hand => No_Hand": 126,
+    "None => Hand_Present": 10,
+    "None => Open_Palm": 20,
+    "Two_Hands (control disabled) => No_Hand": 1,
+    "None => Pointing_Up": 1,
+    "None => Thumb_Up": 5,
+    "Pointing_Up => Pointing_Up": 3,
+    "Open_Palm => Open_Palm": 12,
+    "Closed_Fist => Thumb_Up": 1,
+    "Open_Palm => Wave": 6,
+    "None => Wave": 2,
+    "Thumb_Up => Thumb_Up": 18
+  },
+  "states": [
+    {
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Choose a gesture, then confirm with Thumb_Up",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": false,
+      "signal_age": 999.0
+    },
+    {
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 1,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "forward",
+      "ready": true,
+      "signal_age": 0.015262959999745362
+    },
+    {
+      "mode": "STOPPED",
+      "selected": "shuttle",
+      "reason": "Open_Palm: stopped; select and confirm again",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 1,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "forward",
+      "ready": true,
+      "signal_age": 0.015977031999682367
+    },
+    {
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Closed_Fist: canceled and cleared selection",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.018345525999848178
+    },
+    {
+      "mode": "SELECTED",
+      "selected": "greet",
+      "reason": "Selected greet; show Thumb_Up to start",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.015551777999917249
+    },
+    {
+      "mode": "RUNNING",
+      "selected": "greet",
+      "reason": "Confirmed: executing greet",
+      "segment": 0,
+      "segments_total": 3,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.017501855999853433
+    },
+    {
+      "mode": "RUNNING",
+      "selected": "greet",
+      "reason": "Finished motion segment 1",
+      "segment": 1,
+      "segments_total": 3,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.015954607999901782
+    },
+    {
+      "mode": "FAULT",
+      "selected": null,
+      "reason": "Control signal lost; select again",
+      "segment": 1,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.7669201319999956
+    }
+  ],
+  "odom": {
+    "x": 1.6183841544845312,
+    "y": 2.1917144008229617,
+    "yaw": 2.889071637801997,
+    "linear": 4.8510826598474064e-17,
+    "angular": -1.3891791959416183e-15
+  },
+  "scan_min_m": 1.761232614517212,
+  "last_state": {
+    "mode": "FAULT",
+    "selected": null,
+    "reason": "Control signal lost; select again",
+    "segment": 1,
+    "segments_total": 0,
+    "shuttle_cycle": 0,
+    "shuttle_cycles_completed": 0,
+    "shuttle_phase": "",
+    "ready": true,
+    "signal_age": 25.21383308500026
+  },
+  "last_debug": {
+    "gesture": "No_Hand",
+    "raw_label": "No_Hand",
+    "confidence": 0.0,
+    "fresh": true,
+    "frame_age_s": 0.0498469619997195,
+    "capture_to_result_ms": 35.30266200004917,
+    "hand_count": 0,
+    "pose_source": "no_hand",
+    "pose_label": null,
+    "finger_states": [],
+    "hand_rejection_reasons": [],
+    "source": "live webcam / MediaPipe AI categories + AI landmark joint rules; Wave is temporal motion"
+  },
+  "real_time_factor": 0.37779683667361375,
+  "gesture_publishers": [
+    "gesture_recognition_node"
+  ],
+  "mean_frame_age_s": 0.08789751442925368,
+  "mean_capture_to_result_ms": 59.137868273139645
+}

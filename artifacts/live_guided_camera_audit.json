@@ -1,0 +1,86 @@
+{
+  "method": "Read-only ROS audit; no fake inputs, no camera frames saved",
+  "labels": {
+    "Pointing_Up => Pointing_Up": 2,
+    "Pointing_Up => Hand_Present": 6,
+    "None => Hand_Present": 69,
+    "Open_Palm => Open_Palm": 25,
+    "Closed_Fist => Hand_Present": 4,
+    "Closed_Fist => Closed_Fist": 2,
+    "No_Hand => No_Hand": 1
+  },
+  "states": [
+    {
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Finished motion segment 2",
+      "segment": 2,
+      "segments_total": 8,
+      "shuttle_cycle": 2,
+      "shuttle_cycles_completed": 1,
+      "shuttle_phase": "forward",
+      "ready": true,
+      "signal_age": 0.024922085999833143
+    },
+    {
+      "mode": "STOPPED",
+      "selected": "shuttle",
+      "reason": "Open_Palm: stopped; select and confirm again",
+      "segment": 2,
+      "segments_total": 0,
+      "shuttle_cycle": 2,
+      "shuttle_cycles_completed": 1,
+      "shuttle_phase": "forward",
+      "ready": true,
+      "signal_age": 0.02595759999985603
+    },
+    {
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Closed_Fist: canceled and cleared selection",
+      "segment": 2,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 0.023220729000058782
+    }
+  ],
+  "last_debug": {
+    "gesture": "Hand_Present",
+    "raw_label": "None",
+    "confidence": 0.8491653203964233,
+    "fresh": true,
+    "frame_age_s": 0.1397736779999832,
+    "capture_to_result_ms": 94.42856100008612,
+    "hand_count": 1,
+    "source": "live webcam / MediaPipe Tasks; Wave is temporal wrist motion"
+  },
+  "last_state": {
+    "mode": "IDLE",
+    "selected": null,
+    "reason": "Closed_Fist: canceled and cleared selection",
+    "segment": 2,
+    "segments_total": 0,
+    "shuttle_cycle": 0,
+    "shuttle_cycles_completed": 0,
+    "shuttle_phase": "",
+    "ready": true,
+    "signal_age": 0.026947972000016307
+  },
+  "odom": {
+    "x": 0.9747192241836414,
+    "y": -0.004478623865377558,
+    "yaw": -0.005925713634222586,
+    "linear": -5.663727230203663e-16,
+    "angular": -8.4135144174159385e-16
+  },
+  "scan_min_m": 3.3290278911590576,
+  "real_time_factor": 0.41143502725085007,
+  "gesture_publishers": [
+    "gesture_recognition_node"
+  ],
+  "mean_frame_age_s": 0.10665426208255867,
+  "mean_capture_to_result_ms": 76.12353550457514
+}

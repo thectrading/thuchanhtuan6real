@@ -1,0 +1,64 @@
+{
+  "method": "Read-only ROS audit; no fake inputs, no camera frames saved",
+  "labels": {
+    "No fresh result => No_Hand": 6,
+    "No_Hand => No_Hand": 46,
+    "Hand cropped / too small - show whole hand => No_Hand": 85,
+    "Two_Hands (control disabled) => No_Hand": 1,
+    "None => Hand_Present": 4,
+    "None => Open_Palm": 14
+  },
+  "states": [
+    {
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Choose a gesture, then confirm with Thumb_Up",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 999.0
+    }
+  ],
+  "scan_min_m": 2.7250936031341553,
+  "odom": {
+    "x": 1.6240072378191261,
+    "y": -0.008326163709286075,
+    "yaw": -0.005925713601755223,
+    "linear": 4.50550994940573e-16,
+    "angular": -8.413514418190613e-16
+  },
+  "last_state": {
+    "mode": "IDLE",
+    "selected": null,
+    "reason": "Choose a gesture, then confirm with Thumb_Up",
+    "segment": 0,
+    "segments_total": 0,
+    "shuttle_cycle": 0,
+    "shuttle_cycles_completed": 0,
+    "shuttle_phase": "",
+    "ready": true,
+    "signal_age": 1.9155091709999397
+  },
+  "last_debug": {
+    "gesture": "No_Hand",
+    "raw_label": "Hand cropped / too small - show whole hand",
+    "confidence": 0.0,
+    "fresh": true,
+    "frame_age_s": 0.12299763000009989,
+    "capture_to_result_ms": 97.93819100013934,
+    "hand_count": 1,
+    "pose_source": "no_hand",
+    "pose_label": null,
+    "finger_states": [],
+    "source": "live webcam / MediaPipe AI categories + AI landmark joint rules; Wave is temporal motion"
+  },
+  "real_time_factor": 0.44215880646446465,
+  "gesture_publishers": [
+    "gesture_recognition_node"
+  ],
+  "mean_frame_age_s": 0.09349815704667587,
+  "mean_capture_to_result_ms": 67.06331880668131
+}

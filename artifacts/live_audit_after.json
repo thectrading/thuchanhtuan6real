@@ -1,0 +1,51 @@
+{
+  "method": "Read-only ROS audit; no fake inputs, no camera frames saved",
+  "labels": {
+    "No fresh result => No_Hand": 6,
+    "No_Hand => No_Hand": 58
+  },
+  "states": [
+    {
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Choose a gesture, then confirm with Thumb_Up",
+      "segment": 0,
+      "segments_total": 0,
+      "ready": true,
+      "signal_age": 999.0
+    }
+  ],
+  "last_state": {
+    "mode": "IDLE",
+    "selected": null,
+    "reason": "Choose a gesture, then confirm with Thumb_Up",
+    "segment": 0,
+    "segments_total": 0,
+    "ready": true,
+    "signal_age": 999.0
+  },
+  "odom": {
+    "x": 0.6741565006008043,
+    "y": -0.008022136476945666,
+    "yaw": -0.07720874730856078,
+    "linear": 6.553405821522013e-16,
+    "angular": 5.264764147118389e-16
+  },
+  "scan_min_m": 3.4395666122436523,
+  "last_debug": {
+    "gesture": "No_Hand",
+    "raw_label": "No_Hand",
+    "confidence": 0.0,
+    "fresh": true,
+    "frame_age_s": 0.06752002400025958,
+    "capture_to_result_ms": 56.93035600052099,
+    "hand_count": 0,
+    "source": "live webcam / MediaPipe Tasks; Wave is temporal wrist motion"
+  },
+  "real_time_factor": 0.5739329885408163,
+  "gesture_publishers": [
+    "gesture_recognition_node"
+  ],
+  "mean_frame_age_s": 0.05489768968963572,
+  "mean_capture_to_result_ms": 32.47857999997058
+}

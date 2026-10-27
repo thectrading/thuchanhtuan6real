@@ -1,0 +1,100 @@
+{
+  "method": "Read-only ROS audit; no fake inputs, no camera frames saved",
+  "labels": {
+    "No fresh result => No_Hand": 5,
+    "No_Hand => No_Hand": 44,
+    "Open_Palm => Open_Palm": 17,
+    "None => Hand_Present": 25,
+    "Closed_Fist => Hand_Present": 1,
+    "Pointing_Up => Pointing_Up": 19,
+    "Pointing_Up => Hand_Present": 8,
+    "Thumb_Up => Thumb_Up": 3,
+    "Thumb_Up => Hand_Present": 5
+  },
+  "states": [
+    {
+      "mode": "IDLE",
+      "selected": null,
+      "reason": "Choose a gesture, then confirm with Thumb_Up",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 0,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "",
+      "ready": true,
+      "signal_age": 999.0
+    },
+    {
+      "mode": "SELECTED",
+      "selected": "shuttle",
+      "reason": "Selected shuttle; show Thumb_Up to start",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 1,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "forward",
+      "ready": true,
+      "signal_age": 0.01183647499988183
+    },
+    {
+      "mode": "RUNNING",
+      "selected": "shuttle",
+      "reason": "Confirmed: executing shuttle",
+      "segment": 0,
+      "segments_total": 8,
+      "shuttle_cycle": 1,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "forward",
+      "ready": true,
+      "signal_age": 0.014421458000015264
+    },
+    {
+      "mode": "STOPPED",
+      "selected": "shuttle",
+      "reason": "Open_Palm: stopped; select and confirm again",
+      "segment": 0,
+      "segments_total": 0,
+      "shuttle_cycle": 1,
+      "shuttle_cycles_completed": 0,
+      "shuttle_phase": "forward",
+      "ready": true,
+      "signal_age": 0.010616879999815865
+    }
+  ],
+  "last_state": {
+    "mode": "STOPPED",
+    "selected": "shuttle",
+    "reason": "Open_Palm: stopped; select and confirm again",
+    "segment": 0,
+    "segments_total": 0,
+    "shuttle_cycle": 1,
+    "shuttle_cycles_completed": 0,
+    "shuttle_phase": "forward",
+    "ready": true,
+    "signal_age": 1.4141209229999276
+  },
+  "scan_min_m": 3.861569404602051,
+  "odom": {
+    "x": 0.40217483947511656,
+    "y": -0.001085850084910046,
+    "yaw": -0.005925713695829306,
+    "linear": -8.423528263100384e-16,
+    "angular": -8.413514416264025e-16
+  },
+  "last_debug": {
+    "gesture": "No_Hand",
+    "raw_label": "No_Hand",
+    "confidence": 0.0,
+    "fresh": true,
+    "frame_age_s": 0.12144391599986193,
+    "capture_to_result_ms": 82.82800699998916,
+    "hand_count": 0,
+    "source": "live webcam / MediaPipe Tasks; Wave is temporal wrist motion"
+  },
+  "real_time_factor": 0.4257980899591314,
+  "gesture_publishers": [
+    "gesture_recognition_node"
+  ],
+  "mean_frame_age_s": 0.09731444036066529,
+  "mean_capture_to_result_ms": 67.24606608195171
+}

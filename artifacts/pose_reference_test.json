@@ -1,0 +1,50 @@
+[
+  {
+    "image": "pointing_up.jpg",
+    "raw_label": "Pointing_Up",
+    "raw_confidence": 0.8197478652000427,
+    "geometric_label": "Pointing_Up",
+    "fingers": [
+      "extended",
+      "folded",
+      "folded",
+      "folded"
+    ],
+    "thumb_up": true,
+    "resolved": "Pointing_Up",
+    "source": "AI_landmarks_joint_rules",
+    "passed": true
+  },
+  {
+    "image": "thumbs_up.jpg",
+    "raw_label": "Thumb_Up",
+    "raw_confidence": 0.7324128746986389,
+    "geometric_label": "Thumb_Up",
+    "fingers": [
+      "folded",
+      "folded",
+      "folded",
+      "folded"
+    ],
+    "thumb_up": true,
+    "resolved": "Thumb_Up",
+    "source": "AI_landmarks_joint_rules",
+    "passed": true
+  },
+  {
+    "image": "victory.jpg",
+    "raw_label": "Victory",
+    "raw_confidence": 0.9080049991607666,
+    "geometric_label": "Victory",
+    "fingers": [
+      "extended",
+      "extended",
+      "folded",
+      "folded"
+    ],
+    "thumb_up": false,
+    "resolved": "Victory",
+    "source": "AI_landmarks_joint_rules",
+    "passed": true
+  }
+]
